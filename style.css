@@ -1,0 +1,335 @@
+body{margin: 0; padding: 0; box-sizing: border-box; background-color: black;}
+.container{width: 100%; height: 100%; display: flex; flex-wrap: wrap;}
+.navbar{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    background-color: #ffc400;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    
+}
+.navbar-child{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    
+}
+.exxen{width: 50%; margin-left: 14%;}
+.exxenticariuye {width:20%;position:absolute; right: 375px;}
+.exxenticariuye button{
+    color: #ffc400;
+    background-color: black;
+    width: 90%;
+    height: 3rem;
+    font-size:medium;
+}
+.exxenüyegirisi{width: 8%;margin-left: 7%;}
+.exxenüyegirisi button{
+    color: black;
+    background-color: #ffc400;
+    width: 90%;
+    height: 3rem;
+    font-size:medium;
+}
+.dropdown{display: flex;width: 10%; align-items: center;}
+.dunyaikonu{width: 24%; display: flex; justify-content: end;}
+.trisareti{width: 30%;font-size: x-large;}
+.dropdown::after {
+    content: "▼";
+    top: 0px;
+    font-size: 0.9em;
+    display: block;
+    z-index: 1;
+    pointer-events: none;
+    background: none;
+    
+}
+.navbar-2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#141314;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    z-index: 5;
+    
+   
+}
+
+.input_1{
+    width: 23%;
+   
+    
+    
+}
+.input_2{
+    width: 23%;
+    
+}
+.input_1 input{
+    height: 40px;
+    width:  90%;
+    border-style: groove;
+    
+}
+.input_2 input{
+    height: 40px;
+    width: 90%;
+    border-style: groove;
+}
+input::-moz-placeholder {
+    color:#141314 ;
+    opacity: 1;
+  }
+  input:-ms-input-placeholder {
+    color: #141314;
+  }
+  input::-webkit-input-placeholder {
+    color: #141314;
+    font-size: medium;
+    font-weight: bold;
+  }
+  .button_2{
+    width: 23%;
+  }
+  .button_2 button{
+    color: black;
+    background-color: #ffc400;
+    width: 90%;
+    height: 3rem;
+    font-size:large;
+    font-weight: bold;
+  }
+  .main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+.e{width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+}
+  .buyukresim{
+    width: 70%;
+  }
+  .buyukresim img{
+    width: 100%;
+  }
+  .cardyapisi{
+    width:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+  }
+  .card{
+    height: 380px;
+    width: 22%;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+  }
+.a{
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+
+.a img{width: 100%;height: 100%;}
+.b{
+    width: 100%;
+    height: 20%;
+    color: aliceblue;
+    font-size: larger;
+    text-align: center;
+    
+} 
+
+.footerresim{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+}
+.footerresim div img{
+    width: 100%;
+}
+.footeryazi{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+.footeryazi div{
+    width: 60%
+}
+.footeryazi div h1{
+    color: aliceblue;
+    text-align: center;
+}
+.application{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.applestore{
+    width: 15%;
+    margin: 5px;
+}
+.googleplay{
+    width: 15%;
+    margin: 5px;
+}
+.appgalery{
+    width: 15%;
+    margin: 5px;
+}
+.applestore img{
+    width: 100%;
+    
+}
+.googleplay img{
+    width: 100%;
+    height: 85%;
+    
+}
+.appgalery img{
+    width: 100%;
+    height: 85%;
+}
+.socialmedia{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.socialmedia ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    width: 94%;
+    
+}
+.socialmedia ul li{
+    margin: 5px;
+}
+.exxenyardim{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+.exxenyardim div{
+    height: 60%;
+    width:50%;
+    background-color: #141314;
+    color: #ffc400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.exxenyardim div h1{
+    
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .card{
+        width: 44%;
+    }
+    .button_2 button{
+        
+        font-size:medium;
+        font-weight: bold;
+      }
+    .exxenüyegirisi button{
+        
+        width: 90%;
+        height: 4rem;
+        font-size:medium;
+    }  
+    .exxenüyegirisi{width: 20%;margin-left: 4%;}
+    
+  }
+@media only screen and (max-width: 1000px) {
+    .card{
+        width: 30%;
+    }
+  }
+  @media only screen and(max-width:700px){
+    .trisareti{margin-left: 80%;}
+  }
+@media only screen and (max-width: 650px) {
+    .card{
+        width: 51%;
+    }
+    .dropdown::after{margin-left: 25%;}
+    .exxenyardim div h1{font-size: larger;}
+  }
+  @media only screen and (max-width: 920px) {
+    .navbar-2{
+        display: block;
+        height: 180px;
+
+        
+    }
+    .input_1{
+        width: 70%;
+        margin-top: 10px;
+        margin-left: 18%;
+    }
+    .input_2{
+        width: 70%;
+        margin-top: 10px;
+        margin-left: 18%;
+    }
+    .button_2{
+        width: 71%;
+        margin-top: 10px;
+        margin-left: 18%;
+    }
+  }  
+  @media only screen and (max-width: 1115px) {
+    .navbar{
+        height: 160px;
+        
+    }
+    .exxenticariuye{
+      position: relative;
+      right: 0;
+      width: 80%;
+      margin-left: 12%;
+    }
+ 
+
+  }
+  @media only screen and (max-width: 900px) {
+    .dropdown::after{
+        margin-left: 10%;
+    }
+  }
+  
